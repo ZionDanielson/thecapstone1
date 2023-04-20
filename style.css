@@ -444,5 +444,33 @@ ul li a:hover{
     .form .link a{
         font-size: 16px;
     }
-
 }
+
+@media screen and (max-width: 600px) {
+    /*IPAD old version*/
+
+    .content{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .search{
+        margin-top: -40px;
+        margin-left: 42px;
+    }
+    .logo{
+        margin-left: 180px;
+        font-size: 4vw;
+    }
+    ul{
+        margin-top: -25px;
+        margin-left: -5px;
+    }
+    ul li{
+        margin-left: 50px;
+    }
+    ul li a{
+        font-size: 2vw;  
+    }
+}
+
+@media screen 
